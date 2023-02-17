@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,10 +13,25 @@
       rel="stylesheet"
     />
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/error.css">
+
     <title>Git Search - User Not Found</title>
   </head>
   <body>
-
+    <div class="left__side">
+      <h1>Ooops!</h1>
+      <p>Não encotramos o usuário que você procurou, <strong>vamos tentar novamente</strong>.</p>
+      <a href="/index.html" target="_self">Nova Busca</a>
+    </div>
+    <div class="container__alert"></div>
+    <div class="container__sobreposto">
+      <div class="container__central">
+        <h1>!</h1>
+      </div>
+    </div>
     <script type="module" src="../scripts/error.js"></script>
   </body>
 </html>
